@@ -1,0 +1,71 @@
+/*Esta es el arhivo para los estilos aplicados en la interfaz consulta alumnos*/
+
+.consulta-alumno-container {
+  background: #f0f2f5;
+  padding: 50px;
+  border-radius: 40px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-group button {
+  background-color: #00bfff;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-group button:hover {
+  background-color: #009acd;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.resultado {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.resultado p {
+  margin: 5px 0;
+}
